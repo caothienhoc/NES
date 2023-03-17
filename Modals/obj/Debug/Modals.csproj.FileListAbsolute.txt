@@ -1,0 +1,50 @@
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\Modals\bin\Debug\Modals.dll.config
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\Modals\bin\Debug\Modals.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\Modals\bin\Debug\Modals.pdb
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\Modals\bin\Debug\EntityFramework.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\Modals\bin\Debug\EntityFramework.SqlServer.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\Modals\bin\Debug\EntityFramework.xml
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\Modals\bin\Debug\EntityFramework.SqlServer.xml
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\Modals\obj\Debug\Modals.csprojAssemblyReference.cache
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\Modals\obj\Debug\Modals.csproj.CoreCompileInputs.cache
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\Modals\obj\Debug\Modals.csproj.CopyComplete
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\Modals\obj\Debug\Modals.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\Modals\obj\Debug\Modals.pdb
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\Modals\obj\Debug\Modals.csproj.CoreCompileInputs.cache
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\Modals\obj\Debug\Modals.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\Modals\obj\Debug\Modals.pdb
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\Modals\bin\Debug\Modals.dll.config
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\Modals\bin\Debug\Modals.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\Modals\bin\Debug\Modals.pdb
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\Modals\bin\Debug\EntityFramework.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\Modals\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\Modals\bin\Debug\EntityFramework.xml
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\Modals\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\Modals\obj\Debug\Modals.csproj.CopyComplete
+D:\Projects\2022\TMAU\NES\Modals\bin\Debug\Modals.dll.config
+D:\Projects\2022\TMAU\NES\Modals\bin\Debug\Modals.dll
+D:\Projects\2022\TMAU\NES\Modals\bin\Debug\Modals.pdb
+D:\Projects\2022\TMAU\NES\Modals\bin\Debug\EntityFramework.dll
+D:\Projects\2022\TMAU\NES\Modals\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\2022\TMAU\NES\Modals\bin\Debug\EntityFramework.xml
+D:\Projects\2022\TMAU\NES\Modals\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\2022\TMAU\NES\Modals\obj\Debug\Modals.csproj.CoreCompileInputs.cache
+D:\Projects\2022\TMAU\NES\Modals\obj\Debug\Modals.csproj.CopyComplete
+D:\Projects\2022\TMAU\NES\Modals\obj\Debug\Modals.dll
+D:\Projects\2022\TMAU\NES\Modals\obj\Debug\Modals.pdb
+D:\Projects\2022\TMAU\NES\Modals\bin\Debug\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+D:\Projects\2022\TMAU\NES\Modals\bin\Debug\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+D:\Projects\2022\TMAU\NES\Modals\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\caoth\Desktop\NES\Modals\bin\Debug\Modals.dll.config
+C:\Users\caoth\Desktop\NES\Modals\bin\Debug\Modals.dll
+C:\Users\caoth\Desktop\NES\Modals\bin\Debug\Modals.pdb
+C:\Users\caoth\Desktop\NES\Modals\bin\Debug\EntityFramework.dll
+C:\Users\caoth\Desktop\NES\Modals\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\caoth\Desktop\NES\Modals\bin\Debug\Microsoft.Data.Tools.Components.dll
+C:\Users\caoth\Desktop\NES\Modals\bin\Debug\EntityFramework.xml
+C:\Users\caoth\Desktop\NES\Modals\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\caoth\Desktop\NES\Modals\obj\Debug\Modals.csproj.AssemblyReference.cache
+C:\Users\caoth\Desktop\NES\Modals\obj\Debug\Modals.csproj.CoreCompileInputs.cache
+C:\Users\caoth\Desktop\NES\Modals\obj\Debug\Modals.csproj.CopyComplete
+C:\Users\caoth\Desktop\NES\Modals\obj\Debug\Modals.dll
+C:\Users\caoth\Desktop\NES\Modals\obj\Debug\Modals.pdb

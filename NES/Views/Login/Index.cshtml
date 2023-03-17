@@ -1,0 +1,99 @@
+﻿
+@{
+    Layout = null;
+}
+@model NES.Models.LoginModel
+<!doctype html>
+<html lang="en">
+
+
+<!-- Mirrored from themesbrand.com/skote/layouts/vertical/auth-login.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Feb 2020 08:34:16 GMT -->
+<head>
+    <meta charset="utf-8" />
+    <title>Đăng nhập | Phần mềm bệnh án điện tử</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+    <meta content="Themesbrand" name="author" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="~/Content/assets/images/favicon.ico">
+
+    <!-- Bootstrap Css -->
+    <link href="~/Content/assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="~/Content/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="~/Content/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <div class="account-pages my-5 pt-sm-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6 col-xl-5">
+                    <div class="card overflow-hidden" style="background: -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);-moz-box-shadow:0px 0px 10px 0px rgba(50, 50, 50, 0.75);box-shadow:0px 0px 10px 0px rgba(50, 50, 50, 0.75);">
+                        <div class="bg-soft-primary" style="background:#005218 !important;">
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="text-primary p-4">
+                                        <h5 class="text-primary" style="color: #ffffff !important;font-family: Arial, Helvetica, sans-serif;text-transform: uppercase;"></h5>
+                                        <p style="color: #ffffff !important;">Bệnh viện Trung ương Quân đội 108.</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 align-self-end">
+                                    <img src="~/Content/assets/images/badt.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body pt-0">
+                            <div>
+                                <a href="#">
+                                    <div class="avatar-md profile-user-wid mb-4">
+                                        <span class="avatar-title rounded-circle bg-light">
+                                            <img src="~/Content/assets/images/logo-login.png" alt="" class="rounded-circle" />
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="p-2">
+                                @using (Html.BeginForm("Login", "Login", FormMethod.Post))
+                                {
+                                    @Html.AntiForgeryToken()
+                                    @Html.ValidationSummary(true, null, new { @class = "alert alert-danger" })
+                                    <div class="form-group">
+                                        <label for="TaiKhoan">Tên đăng nhập</label>
+                                        @Html.ValidationMessageFor(model => model.TaiKhoan)
+                                        @Html.TextBoxFor(model => model.TaiKhoan, new { @type = "text", @class = "form-control", @id = "TaiKhoan", @name = "TaiKhoan", @placeholder = "Tên đăng nhập" })
+                                        @*<input type="text" class="form-control" id="username" placeholder="Nhập tên đăng nhập" />*@
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="MatKhau">Mật khẩu</label>
+                                        @Html.ValidationMessageFor(model => model.MatKhau)
+                                        @Html.TextBoxFor(model => model.MatKhau, new { @class = "form-control", @type = "password", @id = "MatKhau", @name = "MatKhau", @placeholder = "Mật khẩu" })
+                                        @*<input type="password" class="form-control" id="userpassword" placeholder="Nhập mật khẩu" />*@
+                                    </div>
+
+                                    <div class="mt-3">
+                                        <button class="btn btn-primary btn-block waves-effect waves-light" type="submit">Đăng nhập</button>
+                                    </div>
+                                }
+                                @*<form class="form-horizontal" action="#" method="POST"></form>*@
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="mt-5 text-center">
+                        <p>2022 © Bệnh viện Trung ương Quân đội 108.<br />Design & Develop by <a href="https://cntt108.com" target="_blank" title="Ban Công nghệ thông tin">Ban Công nghệ thông tin</a>.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<!-- Mirrored from themesbrand.com/skote/layouts/vertical/auth-login.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Feb 2020 08:34:16 GMT -->
+</html>
+

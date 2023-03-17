@@ -1,0 +1,252 @@
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\NES.dll.config
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\NES.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\NES.pdb
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\csc.exe
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\csc.exe.config
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\csc.rsp
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\csi.exe
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\csi.rsp
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\System.AppContext.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\System.Collections.Immutable.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\System.IO.FileSystem.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\System.Reflection.Metadata.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\vbc.exe
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\vbc.exe.config
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\vbc.rsp
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\VBCSCompiler.exe
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\roslyn\VBCSCompiler.exe.config
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\Antlr3.Runtime.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\Microsoft.Web.Infrastructure.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\Newtonsoft.Json.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\System.Web.Helpers.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\System.Web.Mvc.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\System.Web.Optimization.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\System.Web.Razor.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\System.Web.WebPages.Deployment.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\System.Web.WebPages.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\System.Web.WebPages.Razor.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\WebGrease.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\System.Web.Helpers.xml
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\System.Web.Mvc.xml
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\System.Web.Optimization.xml
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\System.Web.Razor.xml
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\System.Web.WebPages.xml
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\System.Web.WebPages.Deployment.xml
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\System.Web.WebPages.Razor.xml
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\Newtonsoft.Json.xml
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\Antlr3.Runtime.pdb
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\obj\Debug\NES.csprojAssemblyReference.cache
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\obj\Debug\NES.csproj.CoreCompileInputs.cache
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\obj\Debug\NES.csproj.CopyComplete
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\obj\Debug\NES.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\obj\Debug\NES.pdb
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\Modals.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\EntityFramework.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\Modals.pdb
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\Modals.dll.config
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\EntityFramework.xml
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\EntityFramework.SqlServer.dll
+E:\CODE\SVN_108\BenhAnDienTu\05.Web\NES\NES\bin\EntityFramework.SqlServer.xml
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\NES.dll.config
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\NES.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\NES.pdb
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\csc.exe
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\csc.exe.config
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\csc.rsp
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\csi.exe
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\csi.rsp
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\System.AppContext.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\System.IO.FileSystem.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\vbc.exe
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\vbc.exe.config
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\vbc.rsp
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\VBCSCompiler.exe
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\Antlr3.Runtime.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\EntityFramework.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\EntityFramework.SqlServer.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\Modals.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\Newtonsoft.Json.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\System.Web.Helpers.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\System.Web.Mvc.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\System.Web.Optimization.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\System.Web.Razor.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\System.Web.WebPages.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\System.Web.WebPages.Razor.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\WebGrease.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\Modals.pdb
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\Modals.dll.config
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\EntityFramework.xml
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\EntityFramework.SqlServer.xml
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\System.Web.Helpers.xml
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\System.Web.Mvc.xml
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\System.Web.Optimization.xml
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\System.Web.Razor.xml
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\System.Web.WebPages.xml
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\System.Web.WebPages.Razor.xml
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\Newtonsoft.Json.xml
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\Antlr3.Runtime.pdb
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\obj\Debug\NES.csprojAssemblyReference.cache
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\obj\Debug\NES.csproj.CoreCompileInputs.cache
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\obj\Debug\NES.csproj.CopyComplete
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\obj\Debug\NES.dll
+D:\Projects\2022\Bệnh Án Điện Tử\Code\05.Web\NES\NES\obj\Debug\NES.pdb
+D:\Projects\2022\TMAU\NES\NES\bin\NES.dll.config
+D:\Projects\2022\TMAU\NES\NES\bin\NES.dll
+D:\Projects\2022\TMAU\NES\NES\bin\NES.pdb
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\csc.exe
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\csc.exe.config
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\csc.rsp
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\csi.exe
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\csi.rsp
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\System.AppContext.dll
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\System.IO.FileSystem.dll
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\vbc.exe
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\vbc.exe.config
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\vbc.rsp
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\VBCSCompiler.exe
+D:\Projects\2022\TMAU\NES\NES\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\2022\TMAU\NES\NES\bin\Antlr3.Runtime.dll
+D:\Projects\2022\TMAU\NES\NES\bin\EntityFramework.dll
+D:\Projects\2022\TMAU\NES\NES\bin\EntityFramework.SqlServer.dll
+D:\Projects\2022\TMAU\NES\NES\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\2022\TMAU\NES\NES\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\2022\TMAU\NES\NES\bin\Modals.dll
+D:\Projects\2022\TMAU\NES\NES\bin\Newtonsoft.Json.dll
+D:\Projects\2022\TMAU\NES\NES\bin\System.Web.Helpers.dll
+D:\Projects\2022\TMAU\NES\NES\bin\System.Web.Mvc.dll
+D:\Projects\2022\TMAU\NES\NES\bin\System.Web.Optimization.dll
+D:\Projects\2022\TMAU\NES\NES\bin\System.Web.Razor.dll
+D:\Projects\2022\TMAU\NES\NES\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\2022\TMAU\NES\NES\bin\System.Web.WebPages.dll
+D:\Projects\2022\TMAU\NES\NES\bin\System.Web.WebPages.Razor.dll
+D:\Projects\2022\TMAU\NES\NES\bin\WebGrease.dll
+D:\Projects\2022\TMAU\NES\NES\bin\Modals.pdb
+D:\Projects\2022\TMAU\NES\NES\bin\Modals.dll.config
+D:\Projects\2022\TMAU\NES\NES\bin\EntityFramework.xml
+D:\Projects\2022\TMAU\NES\NES\bin\EntityFramework.SqlServer.xml
+D:\Projects\2022\TMAU\NES\NES\bin\System.Web.Helpers.xml
+D:\Projects\2022\TMAU\NES\NES\bin\System.Web.Mvc.xml
+D:\Projects\2022\TMAU\NES\NES\bin\System.Web.Optimization.xml
+D:\Projects\2022\TMAU\NES\NES\bin\System.Web.Razor.xml
+D:\Projects\2022\TMAU\NES\NES\bin\System.Web.WebPages.xml
+D:\Projects\2022\TMAU\NES\NES\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\2022\TMAU\NES\NES\bin\System.Web.WebPages.Razor.xml
+D:\Projects\2022\TMAU\NES\NES\bin\Newtonsoft.Json.xml
+D:\Projects\2022\TMAU\NES\NES\bin\Antlr3.Runtime.pdb
+D:\Projects\2022\TMAU\NES\NES\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\2022\TMAU\NES\NES\obj\Debug\NES.csprojAssemblyReference.cache
+D:\Projects\2022\TMAU\NES\NES\obj\Debug\NES.csproj.CoreCompileInputs.cache
+D:\Projects\2022\TMAU\NES\NES\obj\Debug\NES.csproj.CopyComplete
+D:\Projects\2022\TMAU\NES\NES\obj\Debug\NES.dll
+D:\Projects\2022\TMAU\NES\NES\obj\Debug\NES.pdb
+C:\Users\caoth\Desktop\NES\NES\bin\NES.dll.config
+C:\Users\caoth\Desktop\NES\NES\bin\NES.dll
+C:\Users\caoth\Desktop\NES\NES\bin\NES.pdb
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\csc.exe
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\csc.exe.config
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\csc.rsp
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\csi.exe
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\csi.rsp
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\System.AppContext.dll
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\vbc.exe
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\vbc.exe.config
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\vbc.rsp
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\VBCSCompiler.exe
+C:\Users\caoth\Desktop\NES\NES\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\caoth\Desktop\NES\NES\bin\Antlr3.Runtime.dll
+C:\Users\caoth\Desktop\NES\NES\bin\EntityFramework.dll
+C:\Users\caoth\Desktop\NES\NES\bin\EntityFramework.SqlServer.dll
+C:\Users\caoth\Desktop\NES\NES\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\caoth\Desktop\NES\NES\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\caoth\Desktop\NES\NES\bin\Modals.dll
+C:\Users\caoth\Desktop\NES\NES\bin\Newtonsoft.Json.dll
+C:\Users\caoth\Desktop\NES\NES\bin\System.Web.Helpers.dll
+C:\Users\caoth\Desktop\NES\NES\bin\System.Web.Mvc.dll
+C:\Users\caoth\Desktop\NES\NES\bin\System.Web.Optimization.dll
+C:\Users\caoth\Desktop\NES\NES\bin\System.Web.Razor.dll
+C:\Users\caoth\Desktop\NES\NES\bin\System.Web.WebPages.Deployment.dll
+C:\Users\caoth\Desktop\NES\NES\bin\System.Web.WebPages.dll
+C:\Users\caoth\Desktop\NES\NES\bin\System.Web.WebPages.Razor.dll
+C:\Users\caoth\Desktop\NES\NES\bin\WebGrease.dll
+C:\Users\caoth\Desktop\NES\NES\bin\Modals.pdb
+C:\Users\caoth\Desktop\NES\NES\bin\Modals.dll.config
+C:\Users\caoth\Desktop\NES\NES\bin\EntityFramework.xml
+C:\Users\caoth\Desktop\NES\NES\bin\EntityFramework.SqlServer.xml
+C:\Users\caoth\Desktop\NES\NES\bin\System.Web.Helpers.xml
+C:\Users\caoth\Desktop\NES\NES\bin\System.Web.Mvc.xml
+C:\Users\caoth\Desktop\NES\NES\bin\System.Web.Optimization.xml
+C:\Users\caoth\Desktop\NES\NES\bin\System.Web.Razor.xml
+C:\Users\caoth\Desktop\NES\NES\bin\System.Web.WebPages.xml
+C:\Users\caoth\Desktop\NES\NES\bin\System.Web.WebPages.Deployment.xml
+C:\Users\caoth\Desktop\NES\NES\bin\System.Web.WebPages.Razor.xml
+C:\Users\caoth\Desktop\NES\NES\bin\Newtonsoft.Json.xml
+C:\Users\caoth\Desktop\NES\NES\bin\Antlr3.Runtime.pdb
+C:\Users\caoth\Desktop\NES\NES\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\caoth\Desktop\NES\NES\obj\Debug\NES.csproj.AssemblyReference.cache
+C:\Users\caoth\Desktop\NES\NES\obj\Debug\NES.csproj.CoreCompileInputs.cache
+C:\Users\caoth\Desktop\NES\NES\obj\Debug\NES.csproj.CopyComplete
+C:\Users\caoth\Desktop\NES\NES\obj\Debug\NES.dll
+C:\Users\caoth\Desktop\NES\NES\obj\Debug\NES.pdb

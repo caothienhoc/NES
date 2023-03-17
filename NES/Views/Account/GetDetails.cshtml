@@ -1,0 +1,73 @@
+﻿@model Modals.EF.Account
+@{
+    Layout = null;
+}
+<div class="row">
+    <div class="col-12">
+        <form class="needs-validation" novalidate>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="TaiKhoan_Edit">Tên tài khoản</label>
+                        <input type="text" class="form-control" id="TaiKhoan_Edit" value="@Model.TaiKhoan" placeholder="Tên tài khoản" disabled>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="TenDayDu_Edit">Tên đầy đủ</label>
+                        <input type="text" class="form-control" id="TenDayDu_Edit" value="@Model.TenDayDu" placeholder="Tên đầy đủ">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="LoaiUser_Edit">Loại tài khoản</label>
+                        <select id="LoaiUser_Edit" class="form-control">
+                            @if (Model.LoaiUser == 1)
+                            {
+                                <option value="1" selected>Quản trị</option>
+                                <option value="2">Người dùng</option>
+                            }
+                            else
+                            {
+                                <option value="1">Quản trị</option>
+                                <option value="2" selected>Người dùng</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.select2').select2();
+    });
+    $("body").on("click", "#btnUpdate", function () {
+        var TaiKhoan_Edit = $('#TaiKhoan_Edit').val();
+        var TenDayDu_Edit = $('#TenDayDu_Edit').val();
+        var LoaiUser_Edit = $('#LoaiUser_Edit').val();
+        $.ajax({
+            data: {
+                _TaiKhoan_Edit: TaiKhoan_Edit, _TenDayDu_Edit: TenDayDu_Edit, _LoaiUser_Edit: LoaiUser_Edit
+            },
+            url: "/Account/Update",
+            dataType: "json",
+            type: "POST",
+            success: function (res) {
+                if (res.status === true) {
+                    alert("Sửa tài khoản thành công");
+                    window.location.href = "/quan-ly-tai-khoan";
+                }
+                else {
+                    alert(res.error);
+                }
+            }
+        });
+    });
+</script>

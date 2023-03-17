@@ -1,0 +1,45 @@
+﻿@model Modals.EF.DM_Mau
+@{
+    Layout = null;
+}
+
+<form>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <input type="text" id="MaDanhMucMau_Edit" name="MaDanhMucMau_Edit" value="@Model.ID" hidden />
+                <label for="TenDanhMucMau_Edit">Tên danh mục mẫu</label>
+                <input type="text" class="form-control" id="TenDanhMucMau_Edit" value="@Model.TenDanhMucMau" placeholder="Tên danh mục mẫu">
+            </div>
+        </div>
+    </div>
+
+</form>
+
+<script type="text/javascript">
+    $("body").on("click", "#btnUpdate", function () {
+        var MaDanhMucMau_Edit = $('#MaDanhMucMau_Edit').val();
+        var TenDanhMucMau_Edit = $('#TenDanhMucMau_Edit').val();
+        if (TenDanhMucMau_Edit === "") {
+            alert("Chưa nhập tên danh mục mẫu");
+            return;
+        }
+        $.ajax({
+            data: { _ID_Edit: MaDanhMucMau_Edit, _TenDanhMucMau_Edit: TenDanhMucMau_Edit },
+            url: "/DM_Mau/Update",
+            dataType: "json",
+            type: "POST",
+            success: function (res) {
+                //alert(res.error);
+                if (res.status === true) {
+                    alert("Sửa danh mục mẫu thành công");
+                    window.location.href = "/danhmucmau";
+                }
+                else {
+                    alert(res.error);
+                }
+            }
+        });
+    });
+</script>
+

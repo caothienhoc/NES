@@ -1,0 +1,328 @@
+﻿@model IEnumerable<Modals.EF.Account>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var _url = "/quan-ly-tai-khoan";
+    var i = 0;
+}
+
+<div class="page-content">
+    <div class="container-fluid">
+        <!-- start page title -->
+        <div class="row">
+            <div class="col-12">
+                <div class="page-title-box d-flex align-items-center justify-content-between">
+                    <h4 class="mb-0 font-size-18">Quản lý tài khoản</h4>
+                    <div class="page-title-right">
+                        <button class="btn btn-info" data-toggle="modal" data-target="#modalAdd">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                            Tạo mới
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <table id="datatable" class="table table-striped table-bordered dt-responsive" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
+                            <thead style="background-color: #50a5f1; color: #fff;">
+                                <tr class="text-center">
+                                    <th>STT</th>
+                                    <th>Tên đăng nhập</th>
+                                    <th>Tên đầy đủ</th>
+                                    <th>Loại tài khoản</th>
+                                    <th>Trạng thái</th>
+                                    <th>Chức năng</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    i += 1;
+                                    <tr>
+                                        <td class="text-center">@i</td>
+                                        <td>@item.TaiKhoan</td>
+                                        <td>@item.TenDayDu</td>
+                                        @if (item.LoaiUser == 1)
+                                        {
+                                            <td>Quản trị</td>
+                                        }
+                                        else
+                                        {
+                                            <td>Người dùng</td>
+                                        }
+                                        @if (item.isActive == 1)
+                                        {
+                                            <td>Đang sử dụng</td>
+                                        }
+                                        else
+                                        {
+                                            <td>Khóa</td>
+                                        }
+                                        <td class="text-center">
+                                            @if (item.isActive == 1)
+                                            {
+                                                <button type="button" onclick="cmdLock('@item.TaiKhoan')" class="btn-sm btn-info" title="Khóa tài khoản">
+                                                    <i class="fa fa-lock" aria-hidden="true"></i>
+                                                </button>
+                                            }
+                                            else
+                                            {
+                                                <button type="button" onclick="cmdUnLock('@item.TaiKhoan')" class="btn-sm btn-danger" title="Mở khóa tài khoản">
+                                                    <i class="fa fa-unlock" aria-hidden="true"></i>
+                                                </button>
+                                            }
+
+                                            <button type="button" onclick="cmdResetPass('@item.TaiKhoan')" class="btn-sm btn-warning" title="Đặt lại mật khẩu">
+                                                <i class="bx bx-revision" aria-hidden="true"></i>
+                                            </button>
+                                            <button class="btn-sm btn-primary" title="Sửa" onclick="cmdViewEdit('@item.TaiKhoan')">
+                                                <i class="fa fa-wrench" aria-hidden="true"></i>
+                                            </button>
+                                            <button type="button" onclick="cmdDelete('@item.TaiKhoan')" class="btn-sm btn-danger" title="Xóa người dùng">
+                                                <i class="bx bxs-trash" aria-hidden="true"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- end col -->
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- container-fluid -->
+</div>
+<div id="modalEdit" class="modal fade" tabindex="-1" data-keyboard="false" data-backdrop="static"
+     role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title mt-0" id="myModalLabel">Sửa tài khoản</h5>
+                <button type="button" class="close" onclick="window.location.href = '/quan-ly-tai-khoan';" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="modalEditMachine">
+                </div>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-primary waves-effect waves-light" id="btnUpdate">Lưu</button>
+                <button type="button" class="btn btn-secondary waves-effect" onclick="window.location.href = '/quan-ly-tai-khoan';" data-dismiss="modal">Đóng</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div id="modalAdd" class="modal fade" tabindex="-1" data-keyboard="false" data-backdrop="static"
+     role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title mt-0" id="myModalLabel">Thêm mới tài khoản</h5>
+                <button type="button" class="close" data-dismiss="modal" onclick="window.location.href = '/quan-ly-tai-khoan';" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-12">
+                        <form >
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="TaiKhoan_Add">Tên tài khoản</label>
+                                        <input type="text" class="form-control" id="TaiKhoan_Add" placeholder="Tên tài khoản">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="TenDayDu_Add">Tên đầy đủ</label>
+                                        <input type="text" class="form-control" id="TenDayDu_Add" placeholder="Tên đầy đủ">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="MatKhau_Add">Mật khẩu</label>
+                                        <input type="password" class="form-control" id="MatKhau_Add" placeholder="Mật khẩu">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="XacNhanMatKhau_Add">Xác nhận mật khẩu</label>
+                                        <input type="password" class="form-control" id="XacNhanMatKhau_Add" placeholder="Xác nhận mật khẩu">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="LoaiUser_Add">Loại tài khoản</label>
+                                        <select id="LoaiUser_Add" class="form-control">
+                                            <option value="1">Quản trị</option>
+                                            <option value="2" selected>Người dùng</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-primary waves-effect waves-light" onclick="addData()">Lưu</button>
+                <button type="button" class="btn btn-secondary waves-effect" onclick="window.location.href = '/quan-ly-tai-khoan';" data-dismiss="modal">Đóng</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<script type="text/javascript">
+    //Show Modal.
+    function cmdViewEdit(_U) {
+        var id = _U;
+        var options = { "backdrop": "static", keyboard: true };
+        $.ajax({
+            type: "GET",
+            url: '/Account/GetDetails',
+            contentType: "application/json; charset=utf-8",
+            data: { "_id": id },
+            datatype: "json",
+            success: function (data) {
+                $('#modalEditMachine').html(data);
+                $('#modalEdit').modal(options);
+                $('#modalEdit').modal('open');
+            },
+            error: function (res) {
+                alert(res.responseText);
+            }
+        });
+    };
+</script>
+<script type="text/javascript">
+    function addData() {
+        var TaiKhoan_Add = $('#TaiKhoan_Add').val();
+        var TenDayDu_Add = $('#TenDayDu_Add').val();
+        var MatKhau_Add = $('#MatKhau_Add').val();
+        var NhapLaiMatKhau_Add = $('#XacNhanMatKhau_Add').val();
+        var LoaiUser_Add = $('#LoaiUser_Add').val();
+        if (TaiKhoan_Add === "") {
+            alert("Chưa nhập tên tài khoản");
+            return;
+        }
+        if (MatKhau_Add === "") {
+            alert("Chưa nhập mật khẩu");
+            return;
+        }
+        if (MatKhau_Add !== NhapLaiMatKhau_Add) {
+            alert("Xác nhận mật khẩu không đúng");
+            return;
+        }
+        $.ajax({
+            data: {
+                _TaiKhoan_Add: TaiKhoan_Add, _TenDayDu_Add: TenDayDu_Add, _MatKhau_Add: MatKhau_Add,
+                _LoaiUser_Add: LoaiUser_Add
+            },
+            url: "/Account/Create",
+            dataType: "json",
+            type: "POST",
+            success: function (res) {
+                //alert(res.error);
+                if (res.status === true) {
+                    alert("Tạo tài khoản thành công");
+                    //window.location.href = "/Admin/User";
+                }
+                else {
+                    alert(res.error);
+                }
+            }
+        });
+    };
+
+    function cmdLock(_U) {
+        if (confirm("Bạn có muốn khóa tài khoản không?") == true) {
+            $.ajax({
+                data: { TaiKhoan: _U },
+                url: "/Account/Lock",
+                dataType: "json",
+                type: "POST",
+                success: function (res) {
+                    if (res.status === true) {
+                        window.location.href = "/quan-ly-tai-khoan";
+                    }
+                    else {
+                        alert(res.error);
+                    }
+                }
+            });
+        }
+    };
+    function cmdUnLock(_U) {
+        if (confirm("Bạn có muốn mở khóa tài khoản không?") == true) {
+            $.ajax({
+                data: { TaiKhoan: _U },
+                url: "/Account/UnLock",
+                dataType: "json",
+                type: "POST",
+                success: function (res) {
+                    if (res.status === true) {
+                        window.location.href = "/quan-ly-tai-khoan";
+                    }
+                    else {
+                        alert(res.error);
+                    }
+                }
+            });
+        }
+    };
+
+    function cmdDelete(_U) {
+        if (confirm("Bạn có muốn xóa không?") == true) {
+            $.ajax({
+                data: { TaiKhoan: _U },
+                url: "/Account/Delete",
+                dataType: "json",
+                type: "POST",
+                success: function (res) {
+                    if (res.status === true) {
+                        window.location.href = "/quan-ly-tai-khoan";
+                    }
+                    else {
+                        alert(res.error);
+                    }
+                }
+            });
+        }
+    };
+    function cmdResetPass(_U) {
+        $.ajax({
+            data: { TaiKhoan: _U },
+            url: "/Account/ResetPassword",
+            dataType: "json",
+            type: "POST",
+            success: function (res) {
+                if (res.status === true) {
+                    alert("Reset mật khẩu thành công");
+                }
+                else {
+                    alert(res.error);
+                }
+            }
+        });
+    };
+</script>
